@@ -1,0 +1,46 @@
+.card-1 {
+  border-top: 5px solid #ff4f64;
+}
+
+.card-2 {
+  border-top: 5px solid #00a8e7;
+}
+
+.card-3 {
+  border-top: 5px solid #44c4a1;
+}
+
+.card-4 {
+  border-top: 5px solid #fcc200;
+}
+
+/* Write CSS code here. */
+@media (min-width: 768px) {
+  .cardss {
+    padding: 13px;
+    margin: 15px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 14px;
+    max-width: 40%;
+    background-color: white;
+  }
+}
+@media (max-width: 766px) {
+  .cardss {
+    padding: 13px;
+    margin-bottom: 13px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    border-radius: 14px;
+    width: 90%;
+    background-color: white;
+  }
+}
+.imgconn {
+  display: flex;
+  justify-content: flex-end;
+}
